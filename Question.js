@@ -3,6 +3,7 @@ const fetch = require('node-fetch')
 
 function Question(domain){
   this.domain = domain
+  //return
 }
 
 Question.prototype.getQuestions = function(){

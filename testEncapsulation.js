@@ -1,6 +1,6 @@
 function Person(name) {
   //properties/fields
-  var name = this.name;
+  var name = name;
   var height = 68;
   var weight = 170;
   var socialInsuranceNumber = "555 555 555";

@@ -21,7 +21,7 @@ function Person2(name) {
 
 
 function testPerson(name){
-  name = null
+  name = this.name
   function testPerson1(name){
     console.log("in testPerson1")
     setName(name)
